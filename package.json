@@ -1,6 +1,6 @@
 {
   "name": "@treckstar/json2env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Brandon Trecki",
   "license": "MIT",
   "bugs": {
@@ -8,10 +8,7 @@
   },
   "homepage": "https://github.com/treckstar/Json2Env#readme",
   "description": "Converts a .json file to a .env file",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/treckstar/Json2Env.git"
-  },
+  "repository": "https://github.com/treckstar/Json2Env.git",
   "main": "dist/json2env.js",
   "types": "dist/json2env.d.ts",
   "scripts": {
@@ -35,5 +32,9 @@
     "rimraf": "^5.0.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/treckstar"
   }
 }
