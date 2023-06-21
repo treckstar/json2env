@@ -1,5 +1,5 @@
 {
-  "name": "json2env",
+  "name": "@treckstar/json2env",
   "version": "1.0.0",
   "author": "Brandon Trecki",
   "license": "MIT",
