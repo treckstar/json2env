@@ -1,0 +1,39 @@
+{
+  "name": "json2env",
+  "version": "1.0.0",
+  "author": "Brandon Trecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/treckstar/Json2Env/issues"
+  },
+  "homepage": "https://github.com/treckstar/Json2Env#readme",
+  "description": "Converts a .json file to a .env file",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treckstar/Json2Env.git"
+  },
+  "main": "dist/json2env.js",
+  "types": "dist/json2env.d.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/json2env.ts",
+    "prepublishOnly": "npm run build",
+    "build": "tsc",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "package"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.5.2",
+    "jest": "^27.4.7",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
