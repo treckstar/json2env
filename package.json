@@ -1,6 +1,6 @@
 {
   "name": "@treckstar/json2env",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Brandon Trecki",
   "license": "MIT",
   "bugs": {
@@ -32,5 +32,9 @@
     "rimraf": "^5.0.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
